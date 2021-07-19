@@ -1,0 +1,48 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+}
+span {
+    color: salmon;
+}
+#Build {
+    font-size: 25px;
+    font-weight: bold;
+}
+#might {
+    font-size: 20px;
+}
+.hire {
+    background-image: linear-gradient(gold, yellow);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: tomato;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream {
+    margin-top: 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream span {
+    color: green;
+}
