@@ -23,7 +23,7 @@ span {
     font-size: 20px;
     color: tomato;
 }
-section {
+.flexible-container {
     display: flex;
 }
 .half-width {
@@ -38,11 +38,36 @@ section {
     background-repeat: no-repeat;
 }
 .dream {
-    margin-top: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 .dream span {
     color: green;
+}
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-item {
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 10px 20px 50px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(pink,tomato);
+    border-image-slice: 1;
+}
+#babe-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(green,greenyellow);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
